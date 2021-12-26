@@ -260,6 +260,8 @@
                                         Увеличить </button>
                                 </a><button class="item-preview__favorite  js-item-favorite" data-item-type="preview"
                                     data-favitem-id="43282026" title="Добавить в Избранное"></button>
+
+
                                 <div class="item-preview__info-container">
                                     <div class="item-preview__info">
                                         <div class="photo-carousel js-photo-pointer">
@@ -305,6 +307,40 @@
                                             href="https://www.livemaster.ru/cart#item241413786"
                                             title="Перейти в корзину">В корзину</a></div>
                                 </div>
+
+                                <!-- <div class="item-preview__info-container">
+                                    <div class="item-preview__info">
+                                        <div class="photo-carousel js-photo-pointer">
+                                            <div class="photo-carousel__pointer photo-carousel__pointer--active"
+                                                data-number="0"></div>
+                                            <div class="photo-carousel__pointer" data-number="1"></div>
+                                            <div class="photo-carousel__pointer" data-number="2"></div>
+                                            <div class="photo-carousel__pointer" data-number="3"></div>
+                                        </div>
+                                        <div class="item-preview__cost"><a
+                                                href="https://www.livemaster.ru/item/43282002-odezhda-plate-sinee-s-lavandoj"
+                                                class="item-preview__cost-price "><span
+                                                    class="item-preview__cost-outline"><span><span class="price"
+                                                            id="pr_8000_43282002">8&nbsp;000&nbsp;<span><span
+                                                                    class="cr js-stat-main-items-money">₽</span></span></span></span></span></a>
+                                        </div>
+                                        <div class="item-preview__description"><a class="item-preview__name"
+                                                href="https://www.livemaster.ru/item/43282002-odezhda-plate-sinee-s-lavandoj"
+                                                title="Платье синее с лавандой">
+                                                Платье синее с лавандой
+                                            </a>
+                                            <div class="item-preview__rating">
+
+                                                <div class="badges"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-preview__payment-container tobasket"><button
+                                            class="ds-btn ds-btn-m js-add-to-cart item-preview__to-basket"
+                                            title="Положить в корзину товар Платье синее с лавандой"
+                                            data-cart-object-id="43282002" onclick="alert(&quot;done&quot;)">
+                                            В корзину </button></div>
+                                </div> -->
                             </div>
                         </div>
 
@@ -1616,77 +1652,11 @@
         <script>
             [...document.querySelectorAll('.item-preview__master-name')].forEach(e => e.remove());
             [...document.querySelectorAll('.rating-items')].forEach(e => e.remove());
+            [...document.querySelectorAll('.btn-hover-open-viewer.js-btn-hover-open-viewer')].forEach(e => e.remove());
+            [...document.querySelectorAll('body > div > div.ds-content-wrapper > div > div > div >div > div > button')].forEach(e => e.remove());
+            setTimeout(() => [...document.querySelectorAll('button')].forEach(e => e.setAttribute('onclick', 'alert("Скоро можно будет купить на сайте. Совсем скоро.")')), 500);
         </script>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
